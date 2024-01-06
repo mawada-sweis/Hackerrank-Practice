@@ -2,7 +2,7 @@ if __name__ == '__main__':
     N = int(input()) 
     List = []
     
-    for i in range(0, N):
+    for _ in range(N):
         command = input()
         command = command.split(" ")
 
